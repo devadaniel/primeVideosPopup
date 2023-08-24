@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.thumbnail {
+  width: 215px;
+  height: 150px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+@media (min-width: 1200px) {
+  .thumbnail {
+    width: 254px;
+    height: 170px;
+    cursor: pointer;
+  }
+}
+
+.popup-container {
+  background-color: #ffffff;
+  width: 750px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 0px;
+}
+
+.close-button {
+  align-self: flex-end;
+  background-color: transparent;
+  width: 28px;
+  height: 28px;
+  border: none;
+  margin-top: 0;
+  margin-right: 18px;
+  outline: none;
+  cursor: pointer;
+}
+
+.video-url-container {
+  padding: 20px;
+  margin-top: 0px;
+}
